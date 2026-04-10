@@ -1,0 +1,42 @@
+h1 {font-family: Arial, Helvetica, sans-serif; font-size:xx-large; text-align: center;}
+
+p {font-family:Arial, Helvetica, sans-serif; font-size: medium; text-align: center;}
+
+input[type="reset"] {
+    background-color: #ff2929;
+    border-color: #ff2929;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: #98ff76;
+    border-color: #98ff76;
+    margin-right: 10px;
+}
+
+.buttons{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+    width: 75px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.inputline{
+    display: flex;
+    margin: 10px 0;
+
+}
+
+.inputline input {width: 200px;}
+.inputline select {width: 208px; padding: 1px 2px;}
+.inputline input[type="radio"] {width: 10px;}
+.inputline label {width: 125px;}
+
+.box{
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 450px;
+    border: 2px solid black;
+}
